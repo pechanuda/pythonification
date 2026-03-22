@@ -23,7 +23,7 @@ This track is intentionally not focused on data science. It is aimed at general-
 Each week should usually have:
 
 - one core topic
-- one hands-on exercise set
+- one or more hands-on lesson exercises
 - one review and refactor pass
 - occasional mini-project milestones
 
@@ -33,6 +33,8 @@ Recommended weekly rhythm:
 - 60-90 minutes to solve exercises
 - 30-45 minutes to review, refactor, and discuss tradeoffs
 - optional extra time to extend or test the solution
+
+Lesson count per week is intentionally variable. Some topics need one lesson; others are better split into several short lessons.
 
 ## Principles
 

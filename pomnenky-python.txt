@@ -1,0 +1,9 @@
+## Pythonification lectures
+
+- -1 for a list selects last item, -2 second to last etc.
+List - aList = [1,2,3]
+a dic (like map) -
+aMap= {
+"one":1,
+"two":2
+}

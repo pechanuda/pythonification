@@ -55,6 +55,17 @@ def main() -> None:
     # - total number of pages
     # - document name -> page count mapping
 
+    print("\nSandbox part")
+    print(files[1])
+    print(files[0])
+    print(files[-2])
+
+    test_dict = { "a": "ej", "b": "by", "c": "sy"}
+    print(test_dict["b"])
+    test_tuple = ("age","34")
+    print(test_tuple)
+    print(test_tuple[-1])
+
 
 if __name__ == "__main__":
     main()

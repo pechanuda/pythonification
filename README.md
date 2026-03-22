@@ -48,23 +48,41 @@ pythonification/
         ├── lecture.md
         ├── exercise.py
         └── plan.md
+    └── lesson_02/
+        ├── lecture.md
+        ├── exercise.py
+        └── plan.md
+    └── lesson_03/
+        ├── lecture.md
+        ├── exercise.py
+        └── plan.md
+    └── lesson_04/
+        ├── lecture.md
+        ├── exercise.py
+        └── plan.md
 ```
 
 ## Current Workflow
 
 1. Read the weekly plan.
-2. Open the current lesson script.
+2. Pick the current lesson for that week.
 3. Solve the exercises directly in code.
 4. Review and refactor.
 5. Bring questions and code for feedback.
 
 ## Week 1
 
-Start with:
+Week 1 now has multiple small lessons under the same theme. Start with:
 
 - [plan.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/plan.md)
 - [lecture.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/lecture.md)
 - [exercise.py](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/exercise.py)
+
+Then continue with:
+
+- [lesson_02/plan.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_02/plan.md)
+- [lesson_03/plan.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_03/plan.md)
+- [lesson_04/plan.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_04/plan.md)
 
 ## Repo Evolution
 
@@ -75,3 +93,5 @@ Expected progression:
 3. Weeks 5+: gradual move toward small, well-structured applications
 
 That means your instinct is correct: for starters, this should stay simple and script-first, but organized by lesson.
+
+The number of lessons per week is intentionally variable. A week is a topic bucket, not a fixed lesson count.
