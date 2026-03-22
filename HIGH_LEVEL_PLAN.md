@@ -6,10 +6,10 @@ Learn Python efficiently as a software engineer coming from Java, with emphasis 
 
 - writing idiomatic Python instead of Java-shaped Python
 - building maintainable CLI and backend-style applications
-- handling files, text, JSON, and document-processing workflows
+- handling files, text, JSON, and common data formats
 - using professional tooling and testing practices
 
-This track is intentionally not focused on data science. It is aimed at application development around unstructured data and document-processing systems.
+This track is intentionally not focused on data science. It is aimed at general-purpose software engineering in Python.
 
 ## Working Assumptions
 
@@ -40,7 +40,7 @@ Recommended weekly rhythm:
 - Focus on Python idioms, not just syntax
 - Prefer small hands-on tasks over passive reading
 - Use tooling early so the workflow feels real
-- Build toward document and text processing use cases
+- Build toward general software-engineering use cases
 - Refactor often to improve readability and design judgment
 
 ## 10-Week Roadmap
@@ -129,18 +129,18 @@ Outcome:
 
 You should be able to build small command-line tools that behave like real software.
 
-### Week 7: JSON, CSV, and Document Metadata Workflows
+### Week 7: JSON, CSV, and Data Transformation Workflows
 
 Focus:
 
 - JSON and CSV handling
 - data normalization
-- metadata extraction
 - shaping intermediate representations
+- common transformation patterns
 
 Outcome:
 
-You should be able to build the core data plumbing used by document-processing systems.
+You should be able to build the core data plumbing used by many small applications and integrations.
 
 ### Week 8: Testing Properly with Pytest
 
@@ -174,11 +174,11 @@ You should be able to evolve a script into a maintainable small application.
 Focus:
 
 - combine parsing, validation, reporting, and CLI structure
-- build a small document intake/reporting tool
+- build a small but realistic command-line application
 
 Outcome:
 
-You should finish with a realistic project that reflects the kind of work you want to do.
+You should finish with a realistic project that reflects day-to-day Python application work.
 
 ## Why These Tools Matter
 
@@ -214,12 +214,12 @@ It keeps style consistent, catches common mistakes, and is fast enough that it d
 
 ## First Mini-Projects
 
-These are better starting projects than a game because they map directly to your target domain:
+These are strong starting projects because they exercise the right Python skills:
 
 1. File inventory CLI
-2. Text report analyzer
-3. Document intake pipeline
-4. Rule-based document classifier
+2. Log or text analyzer
+3. CSV/JSON transformer
+4. Rule-based file classifier
 
 ## Mentor Workflow
 
@@ -232,3 +232,23 @@ For each lesson:
 5. Periodically combine lessons into mini-projects
 
 The main goal is not just to get code working. It is to learn how Python code should look and how to design it cleanly.
+
+## Repo Layout
+
+Use a lesson-based layout:
+
+```text
+pythonification/
+├── HIGH_LEVEL_PLAN.md
+└── lessons/
+    ├── lesson_01/
+    │   ├── lecture.md
+    │   ├── exercise.py
+    │   └── plan.md
+    └── lesson_02/
+        ├── lecture.md
+        ├── exercise.py
+        └── plan.md
+```
+
+This keeps each lesson self-contained and makes it easy to revisit older material.

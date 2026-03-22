@@ -1,6 +1,6 @@
 # Pythonification
 
-Python learning repo focused on becoming productive quickly as a software engineer, not a data scientist.
+Python learning repo focused on becoming productive quickly as a software engineer.
 
 ## Approach
 
@@ -8,8 +8,8 @@ This repo starts simple on purpose.
 
 For the first phase, this should mostly be:
 
-- small scripts
-- focused exercises
+- small lesson exercises
+- focused lecture notes
 - refactoring passes
 - short notes in Markdown
 
@@ -22,6 +22,7 @@ Right now the main goal is to:
 - read Python comfortably
 - write idiomatic transformations
 - understand core built-in types
+- build problem-solving fluency
 - get used to Python syntax and standard patterns
 
 A package-heavy structure would distract from that.
@@ -42,9 +43,11 @@ That transition is planned for Week 4 and later.
 pythonification/
 ├── README.md
 ├── HIGH_LEVEL_PLAN.md
-├── WEEK_01_PLAN.md
-└── scripts/
-    └── lesson1.py
+└── lessons/
+    └── lesson_01/
+        ├── lecture.md
+        ├── exercise.py
+        └── plan.md
 ```
 
 ## Current Workflow
@@ -59,8 +62,9 @@ pythonification/
 
 Start with:
 
-- [WEEK_01_PLAN.md](/Users/michael.linka/Udemy/pythonification/WEEK_01_PLAN.md)
-- [lesson1.py](/Users/michael.linka/Udemy/pythonification/scripts/lesson1.py)
+- [plan.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/plan.md)
+- [lecture.md](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/lecture.md)
+- [exercise.py](/Users/michael.linka/Udemy/pythonification/lessons/lesson_01/exercise.py)
 
 ## Repo Evolution
 
@@ -70,4 +74,4 @@ Expected progression:
 2. Week 4: intro to project structure and tooling
 3. Weeks 5+: gradual move toward small, well-structured applications
 
-That means your instinct is correct: for starters, this should just be scripts.
+That means your instinct is correct: for starters, this should stay simple and script-first, but organized by lesson.

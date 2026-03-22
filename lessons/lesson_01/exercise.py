@@ -1,6 +1,4 @@
-"""Week 1 exercises: core collections and Pythonic transformations.
-
-Work directly in this file.
+"""Lesson 01 exercises: core collections and Pythonic transformations.
 
 Suggested flow:
 1. Solve each section with normal loops first.
@@ -30,12 +28,12 @@ documents = [
 
 def summarize_extensions(files: list[str]) -> dict[str, int]:
     """Return counts by file extension."""
-    # TODO: implement this during Session 2.
+    # TODO: implement this during the lesson.
     return {}
 
 
 def main() -> None:
-    print("Week 1: core collections")
+    print("Lesson 01: core collections")
 
     print("\nSection 1: filenames")
     # TODO:
